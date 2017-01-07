@@ -208,35 +208,7 @@ float convert(float r,float g,float b)
     Serial.print("\n h*60:");  Serial.print(h);
     Serial.print("\n\n");
 
-//    
-//if((0<=h && h<=31) || (286<=h && h<=391))
-//{
-//  //red
-//   Serial.println("Red");
-//return 1; 
-//}
-//else if(31<h&&h<=60)
-//{
-//   Serial.println("Yell");
-//  //yel
-//return 2; 
-//}
-//else if(60<h&&h<=162)
-//{
-//  Serial.println("Gred");
-//  //gre 
-//return 3; 
-//}
-//else if(162<h&&h<286) 
-//{
-//   Serial.println("blue");
-//  //blue
-//return 4; 
-//}
-//else{  
-//   Serial.println("NNNNNNNNNNNNNNNN");
-//  return 0; 
-//}
+
 
 if((0<=h && h<=30) || (300<=h && h<=365))
 {
@@ -266,8 +238,7 @@ return 4;
 else{
    Serial.println("NNNNNNNNNNNNNNNN");
   return 0;
-}
-  
+}  
 }
 
 
